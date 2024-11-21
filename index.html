@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Productos</h1>
+        <form id="productForm">
+            <input type="text" id="title" placeholder="Título del Producto" required>
+            <input type="text" id="image" placeholder="URL de la Imagen" required>
+            <textarea id="description" placeholder="Descripción del Producto" required></textarea>
+            <button type="submit">Agregar Producto</button>
+        </form>
+        <div id="productList"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
